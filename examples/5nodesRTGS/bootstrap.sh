@@ -14,7 +14,7 @@ cp $CREL/constellation-node /usr/local/bin && chmod 0755 /usr/local/bin/constell
 rm -rf $CREL
 
 # install golang
-add-apt-repository ppa:gophers/archive
+add-apt-repository -y ppa:gophers/archive
 apt update
 apt-get install golang-1.9-go
 PATH=$PATH:/usr/lib/go-1.9/bin
